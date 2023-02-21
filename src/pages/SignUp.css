@@ -1,0 +1,41 @@
+.login__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-submit,
+.btn-reset {
+  width: 300px;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(110, 197, 237);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.password__query {
+  font-size: 12px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+button:disabled {
+  background-color: gray;
+  cursor: none;
+}
+
+.btn-reset {
+  margin-top: 10px;
+}

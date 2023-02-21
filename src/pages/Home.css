@@ -1,0 +1,31 @@
+.home__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.home__container__btn-group {
+  margin-top: 50px;
+  display: flex;
+}
+
+.home__container__btn-group__signin,
+.home__container__btn-group__signup {
+  background: none;
+  padding: 10px;
+  border: 2px solid red;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.home__container__btn-group__signup {
+  margin-left: 30px;
+}
